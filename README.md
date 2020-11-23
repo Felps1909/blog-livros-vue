@@ -1,6 +1,6 @@
-# Quasar App (blog)
+# Aplicação Quasar
 
-A Quasar Framework app
+Aplicação criada com quasar(vue)
 
 ## Install the dependencies
 ```bash
