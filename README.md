@@ -2,21 +2,9 @@
 
 Aplicação criada com quasar(vue)
 
-## Install the dependencies
-```bash
-npm install
-```
+## Intuito do Projeto
+Esta aplicação foi realizada com intuito de aprender o framework Quasar
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
-
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
+### Aplicação 
+Nesta aplicação utilizei o quasar para tratar o front-end e o nodejs para a api backend,
+sistema de login e cadastro e um crud para as postagens de livros.
