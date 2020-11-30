@@ -13,6 +13,7 @@
 				:type="isPwd ? 'password' : 'text'"
 				label="Senha"
 				color="white" label-color="white"
+				:rules="[val => !!val || 'Preencha o campo!']"
 			>
         <template v-slot:append>
           <q-icon

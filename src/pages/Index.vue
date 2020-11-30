@@ -11,8 +11,8 @@
           <q-tab name="login" label="Login Usuario" />
           <q-tab name="cadastro" label="Registre Usuario" />
         </q-tabs>
-        <q-tab-panels v-model="tab" animated>
-            <q-tab-panel name="login" class="bg-red-5">
+        <q-tab-panels v-model="tab" animated >
+            <q-tab-panel name="login" class="bg-red-5" >
               <Login/>
             </q-tab-panel>
 
@@ -38,7 +38,7 @@ export default {
   },
   data () {
     return {
-      tab: 'mails'
+      tab: 'login'
     }
   }
 }
@@ -51,7 +51,7 @@ export default {
   background-color: #A6DAE8
 }
 .land-page{
-  margin: 2rem 0
+  margin: 2.2rem 0
 }
 </style>
 
