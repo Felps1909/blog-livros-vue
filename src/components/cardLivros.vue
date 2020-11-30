@@ -1,6 +1,6 @@
 <template>
     <div class="row align-center justify-around">
-      <div class="col-12 col-md-3 q-ma-lg q-mt-xl" v-for="book in books" :key="book.descricao" >
+      <div class="col-md-3 q-ma-lg q-mt-xl" v-for="book in books" :key="book.descricao" >
           <q-card class="my-card text-blue-10">
             <q-card-section>
                 <div class="txt-preco text-h6 ">R${{book.preco}}</div>
@@ -44,7 +44,7 @@ export default {
                     nome:'Nome Livro',
                     autor:'Jhon Doe',
                     preco:'15,00'
-                },
+                }
 
             ]
         }   
