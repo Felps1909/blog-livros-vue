@@ -4,8 +4,8 @@
             <p>Nome Usuario</p>
         </div>
         <div class="box2">
-            <p>Adicionar livro</p>
-            <p>Sair</p>
+            <q-btn flat>Adicionar livro</q-btn>
+            <q-btn flat to="/">Sair</q-btn>
         </div>
     </header>
 </template>
@@ -24,11 +24,8 @@ export default {
   .box2{
     display: flex;
     float: right;
-    font-size: 1rem
   }
-  .box2 p {
-     padding: 0 1rem
-  }
+
   header{
     display: flex;
     align-items: center;

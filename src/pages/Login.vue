@@ -23,7 +23,7 @@
           />
         </template>
       </q-input>
-			<q-btn class="btn" color="red-4" text-color="white" label="Entrar" />
+			<q-btn class="btn" color="red-4" text-color="white" label="Entrar" to="/livros" />
 			<q-btn class="btn" color="red-4" text-color="white" label="Limpar" @click="reset" />
 		</form>
 	</div>
