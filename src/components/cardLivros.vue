@@ -1,5 +1,5 @@
 <template>
-    <div class="row ">
+    <div class="row">
       <div class="col q-ma-sm q-mt-xl" v-for="book in books" :key="book.descricao" >
           <q-card class="my-card text-blue-10">
             <q-card-section>
@@ -39,7 +39,19 @@ export default {
                     autor:'Jhon Doe',
                     preco:'15,00'
                 },
-                                {
+                 {
+                    descricao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+                    nome:'Nome Livro',
+                    autor:'Jhon Doe',
+                    preco:'15,00'
+                },
+                {
+                    descricao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+                    nome:'Nome Livro',
+                    autor:'Jhon Doe',
+                    preco:'15,00'
+                },
+                 {
                     descricao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
                     nome:'Nome Livro',
                     autor:'Jhon Doe',
