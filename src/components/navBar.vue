@@ -19,7 +19,7 @@ export default {
 <style>
   .box1{
     width: 80vw;
-    font-size: 1.5rem
+    font-size: 1.5rem;
   }
   .box2{
     display: flex;
