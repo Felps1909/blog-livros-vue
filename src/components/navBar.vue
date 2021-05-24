@@ -1,10 +1,10 @@
 <template>
-    <header  class="bg-red-5 text-white">
+    <header  class="bg-red-5 text-white q-pa-sm">
         <div class="box1">
             <p>Nome Usuario</p>
         </div>
         <div class="box2">
-            <q-btn flat>Adicionar livro</q-btn>
+            <q-btn flat to="/livros/adicionar-livro">Adicionar livro</q-btn>
             <q-btn flat to="/">Sair</q-btn>
         </div>
     </header>

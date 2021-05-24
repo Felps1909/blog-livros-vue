@@ -12,7 +12,7 @@
             </q-card-section>
 
             <q-card-actions>
-                <q-btn flat class="justify-flex-end" to="/editar">Editar</q-btn>
+                <q-btn flat class="justify-flex-end text-red-10" to="/editar">Editar</q-btn>
             </q-card-actions>
             
         </q-card> 
@@ -43,6 +43,27 @@ export default {
                 },
                  {
                     id:3,
+                    descricao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+                    nome:'Nome Livro',
+                    autor:'Jhon Doe',
+                    preco:'15,00'
+                },
+                 {
+                    id:4,
+                    descricao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+                    nome:'Nome Livro',
+                    autor:'Jhon Doe',
+                    preco:'15,00'
+                },
+                 {
+                    id:5,
+                    descricao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+                    nome:'Nome Livro',
+                    autor:'Jhon Doe',
+                    preco:'15,00'
+                },
+                 {
+                    id:6,
                     descricao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
                     nome:'Nome Livro',
                     autor:'Jhon Doe',
