@@ -1,6 +1,6 @@
 <template>
   <q-page class="container">
-    <div class="row justify-around align-center ">
+    <div class=" content row justify-around align-center ">
       <div class="land-page" style="max-width:320px;">
         <q-tabs
           v-model="tab"
@@ -48,10 +48,12 @@ export default {
   font-family: Arial, Helvetica, sans-serif;
 }
 .container{
-  background-color: #A6DAE8
+  background-color: #A6DAE8;
+
 }
 .land-page{
   margin: 2.2rem 0
 }
+
 </style>
 

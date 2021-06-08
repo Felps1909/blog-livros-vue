@@ -1,5 +1,5 @@
 <template>
-    <div class="row align-center justify-around">
+    <div class="content row align-center justify-around">
       <div class="col-md-3 q-ma-lg q-mt-xl" v-for="book in books" :key="book.id" >
           <q-card class="my-card text-blue-10">
             <q-card-section>
@@ -13,6 +13,7 @@
 
             <q-card-actions>
                 <q-btn flat class="justify-flex-end text-red-10" to="/editar">Editar</q-btn>
+                <q-btn flat class="justify-flex-end text-red-10" >Excluir</q-btn>
             </q-card-actions>
             
         </q-card> 
@@ -85,4 +86,5 @@ export default {
        display: flex;
        float: right;
    }
+   
 </style>

@@ -2,16 +2,16 @@
     <q-page>
         <navbar/>
         <div>
-			<q-btn class="botao text-white q-ma-sm" color="blue-8"  label="Voltar" to="/livros"/>
+			<q-btn class="botao text-blue-10 q-ma-sm"   label="Voltar" to="/livros"/>
 		</div>
 		<div class="row align-center justify-around">
-			<div class=" content col-md-8 col-sm-6 bg-blue-8 text-center text-white ">
+			<div class=" content-cad-livro col-md-8 col-sm-6 text-center  text-blue-10 ">
 				<h4 class="q-mt-md">Cadastro de Livros</h4>
-				<q-form class="q-ma-lg ">
+				<q-form class="q-ma-lg  ">
 					<q-input
 					class="campo"
 					color="white" 
-					label-color="white" 
+					label-color="blue-10" 
 					v-model="nomeLivro"
 					label="Nome do livro"
 					lazy-rules
@@ -25,7 +25,7 @@
 					prefix="$"
 					label="Preço"
 					color="white"
-					label-color="white"
+					label-color="blue-10"
 					mask="#.##"
 					fill-mask="0"
 					reverse-fill-mask
@@ -36,7 +36,7 @@
 					<q-input
 					class="campo"
 					color="white" 
-					label-color="white" 
+					label-color="blue-10" 
 					v-model="categoria"
 					label="Categoria"
 					lazy-rules
@@ -44,16 +44,16 @@
 					>
 					</q-input>
 					<q-input
-					class="campo"
+					class="campo q-mb-md"
 					color="white" 
-					label-color="white" 
+					label-color="blue-10" 
 					v-model="subCategoria"
 					label="Subcategoria"
 					
 					>
 					</q-input>
-					<q-btn class="btn q-mr-sm q-mt-md" color="red-5" text-color="white" label="Cadastrar" />
-					<q-btn class="btn q-mt-md" color="red-5" text-color="white" label="Limpar" @click="reset"/>
+					<q-btn class="btn q-mr-sm " color="red-5" text-color="white" label="Cadastrar" />
+					<q-btn class="btn " color="red-5" text-color="white" label="Limpar" @click="reset"/>
 				</q-form>
 			</div>
 		</div>
@@ -67,7 +67,7 @@ export default {
 		return{
 			nomeLivro:'',
 			preco:'',
-			categoria:'',
+			Categoria:'',
 			subCategoria:''
 		}
 	},
@@ -88,9 +88,16 @@ export default {
         padding: 0;
         margin: 0;
     }
-	/* .campo{
-		width:50vw;
-	} */
+	.content-cad-livro{
+		background-color: #A6DAE8;
+	}
+	.botao{
+		background-color: #A6DAE8;
+	}
+	.campo input{
+		color: red
+		;
+	}
 	/* .content{
 		display: flex;
 		flex-direction: column;

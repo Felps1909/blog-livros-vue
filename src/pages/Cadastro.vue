@@ -5,27 +5,27 @@
 			<q-input
 			 color="white" label-color="white" 
 			 type="text" v-model="nome" label="Nome Usuario"
-			 :rules="[val => val.length >= 6 && !!val || 'Use no minimo 6 caracteres','Preencha o Campo']"/>
+			 :rules="[val =>  !!val && val.length >= 6 || 'Preencha o Campo com no minimo 6 caracteres']"/>
 			<q-input 
 			  
 			  color="white" 
 				label-color="white" 
 				v-model="email"  type="email" label="Email" 
-				:rules="[ val => val.length >= 6 || 'Use no minimo 6 caracteres']"/>
+				:rules="[ val => !!val || 'Preencha o campo!']"/>
 			<q-input
 			 
 			 color="white" label-color="white"  
 			 v-model="password" :type="isPwd ? 'password' : 'text'"
 			  label="Senha"
-				:rules="[ val => val.length >= 6 || 'Use no minimo 6 caracteres']"
+				:rules="[ val =>  !!val && val.length >= 6 || 'Preencha o Campo com no minimo 6 caracteres']"
 			/>
 			<q-input 
-			 class="q-mt-lg q-mb-lg"
+			 class="q-mb-lg"
 				v-model="password" 
 				:type="isPwd ? 'password' : 'text'"
 				label="Confirme Senha"
 				color="white" label-color="white"
-				:rules="[ val => val.length >= 6 || 'Use no minimo 6 caracteres']"
+			
 			>
         <template v-slot:append>
           <q-icon
